@@ -34,8 +34,7 @@ crossorigin="anonymous">
                         </a>
                         <ul class="dropdown-menu">
                             <li>
-                                <a 
-href=" Temperature.html">Temperature</a>
+                                <a href=" temp.html">Temperature</a>
                             </li>
                             <li>
                                 <a href="humidity.html">Humidity</a>
@@ -62,7 +61,6 @@ href=" Temperature.html">Temperature</a>
                 <div class="box box-left">
                     <section id="intro">
                         <h1>Project Summary</h1>
-                        <hr>
                         <section id="summary">
                             <p>This project seeks to answer the question: What Is the weather like as we approach the equator?
                 To answer this question we used a series of python requests through the API 'https://openweathermap.org/(turn this into a link), and JSON traversal commands. These requests gathered weather data collected from over 500 randomly selected cities of varying distances from the equator. The data was then codified and visualized as a series of charts which are presented throughout the pages of this website. In the Navigation Bar you will find links to the individual charts, the charts side by side for comparison, and the data used to construct these charts. Thank you for visiting this site!
@@ -70,11 +68,7 @@ href=" Temperature.html">Temperature</a>
                             </p>
 
                             <p>
-                            Specifics: I used the CityPy library to select cities closest to the randomly generated lattitue and longitudinal pairings. over 600 cities were selected, but only the cities that were able to produce a record of the weather were used, and any duplicates were dropped. The usable data was pulled into a CSV file and converted into a DataFrame using the Pandas library. That dataframe was then run through with PyPlots to  
-                            </p>
-
-                            <p>
-                                
+                            Specifics: I used the CityPy library to select cities closest to the randomly generated lattitue and longitudinal pairings. over 600 cities were selected, but only the cities that were able to produce a record of the weather were used, and any duplicates were dropped. The usable data was pulled into a CSV file and converted into a DataFrame using the Pandas library. That dataframe was then run through with PyPlots to generate scatterplots to visualize the data. The following plots were constructed.
                             </p>
 
                             <ul>
@@ -82,7 +76,6 @@ href=" Temperature.html">Temperature</a>
                                 <li>Humidity (%) vs. Latitude</li>
                                 <li>Cloudiness (%) vs. Latitude</li>
                                 <li>Wind Speed (mph) vs. Latitude</li>
-
                             </ul>
 
                         </section>
@@ -90,57 +83,8 @@ href=" Temperature.html">Temperature</a>
                     </section>
                 </div>
             </div>
-
-
-            <div class="col-md-4">
-                <div class="box box-right">
-                    <h2>Visualizations</h2>
-                    <hr>
-
-
-                    <div class="row">
-                        <div class="col-xs-6 col-sm-3 col-md-6">
-                            <figure>
-                                <a href="temp.html">
-                                    <img id="landing-viz" src="Temp_Latitude.png" alt="Latitude vs. Temperature">
-                                </a>
-                            </figure>
-                        </div>
-
-                        <div class="col-xs-6 col-sm-3 col-md-6">
-                            <figure>
-                                <a href="humid.html">
-                                    <img id="landing-viz" src="Humidity_Latitude.png" alt="Latitude vs. Humidity">
-                                </a>
-                            </figure>
-                        </div>
-
-                        <div class="col-xs-6 col-sm-3 col-md-6">
-                            <figure>
-                                <a href="cloud.html">
-                                    <img id="landing-viz" src="Cloudiness_Latitude.png" alt="Latitude vs. Cloudiness">
-                                </a>
-                            </figure>
-                        </div>
-
-                        <div class="col-xs-6 col-sm-3 col-md-6">
-                            <figure>
-                                <a href="wind.html">
-                                    <img id="landing-viz" src="Wind_Speed_Latitude.png" alt="Latitude vs. Wind Speed">
-                                </a>
-                            </figure>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-
         </div>
     </div>
-
-
-<!--Adds in JQuery to handle 
-    <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script> -->
 
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
         crossorigin="anonymous">
