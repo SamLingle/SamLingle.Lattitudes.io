@@ -21,4 +21,4 @@ Use Github Pages to create a visualization dashboard for the geograpical weather
   ![Humidity](https://github.com/SamLingle/SamLingle.Lattitudes.io/blob/master/assets/images/Humidity.png)
   
   ### Windspeed
-  1[Windspeed](https://github.com/SamLingle/SamLingle.Lattitudes.io/blob/master/assets/images/Windspeed.png)
+  ![Windspeed](https://github.com/SamLingle/SamLingle.Lattitudes.io/blob/master/assets/images/Windspeed.png)
